@@ -9,11 +9,7 @@ website:
         href: about.qmd
       - text: "Publikationen"
         href: publications.qmd
-      - text: "Blog"
-        href: posts/index.qmd
-      - text: "CV"
-        href: files/cv.pdf
-
+     
 format:
   html:
     theme: cosmo
