@@ -11,10 +11,17 @@ website:
       - text: "Home"
         href: index.qmd
     right:
-      - text: "About"
-        href: about.qmd
+      - text: "Research"
+        href: research.qmd
       - text: "Publications"
         href: publications.qmd
+      - text: "CV"
+        href: cv.qmd
+      - text: "Teaching"
+        href: teaching.qmd
+      - text: "Slides"
+        href: slides.qmd
+        
 
 format:
   html:
