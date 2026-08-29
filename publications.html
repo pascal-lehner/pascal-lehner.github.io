@@ -67,6 +67,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -125,8 +154,18 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#publications" id="toc-publications" class="nav-link active" data-scroll-target="#publications">Publications</a>
+  <ul class="collapse">
+  <li><a href="#preprints" id="toc-preprints" class="nav-link" data-scroll-target="#preprints">Preprints</a></li>
+  <li><a href="#publications-1" id="toc-publications-1" class="nav-link" data-scroll-target="#publications-1">Publications</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
@@ -134,8 +173,25 @@ ul.task-list li input[type="checkbox"] {
 
 
 
+<section id="publications" class="level1">
+<h1>Publications</h1>
+<section id="preprints" class="level2">
+<h2 class="anchored" data-anchor-id="preprints">Preprints</h2>
+<ul>
+<li>D. Corallo, P. Lehner, and C. Wieners: <em>A parallel space-time <span class="math inline">\(p\)</span>-adaptive discontinuous Galerkin method for nonlinear acoustics</em>, 2026. <a href="https://arxiv.org/abs/2602.12788">arXiv</a></li>
+</ul>
+</section>
+<section id="publications-1" class="level2">
+<h2 class="anchored" data-anchor-id="publications-1">Publications</h2>
+<ul>
+<li><p>P. Lehner: <em>Well-posedness of a first-order-in-time model for nonlinear acoustics with nonhomogeneous boundary conditions</em>, <em>Nonlinear Analysis: Real World Applications</em>, 91, 104609, 2026. <a href="https://arxiv.org/abs/2409.17254">arXiv</a></p></li>
+<li><p>B. Kaltenbacher and P. Lehner: <em>A first order in time wave equation modeling nonlinear acoustics</em>, <em>Journal of Mathematical Analysis and Applications</em>, 543, 128933, 2025. <a href="https://arxiv.org/abs/2404.11250">arXiv</a></p></li>
+<li><p>C. Kuehn, P. Lehner, and J.-E. Sulzbach: <em>Infinite dimensional Slow Manifolds for a Linear Fast-Reaction System</em>, <em>Contemporary Mathematics</em>, 806, 87–104, 2024. <a href="https://arxiv.org/abs/2404.17220">arXiv</a></p></li>
+</ul>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

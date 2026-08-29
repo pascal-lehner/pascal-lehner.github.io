@@ -1,5 +1,26 @@
 [
   {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "D. Corallo, P. Lehner, and C. Wieners: A parallel space-time \\(p\\)-adaptive discontinuous Galerkin method for nonlinear acoustics, 2026. arXiv\n\n\n\n\n\nP. Lehner: Well-posedness of a first-order-in-time model for nonlinear acoustics with nonhomogeneous boundary conditions, Nonlinear Analysis: Real World Applications, 91, 104609, 2026. arXiv\nB. Kaltenbacher and P. Lehner: A first order in time wave equation modeling nonlinear acoustics, Journal of Mathematical Analysis and Applications, 543, 128933, 2025. arXiv\nC. Kuehn, P. Lehner, and J.-E. Sulzbach: Infinite dimensional Slow Manifolds for a Linear Fast-Reaction System, Contemporary Mathematics, 806, 87–104, 2024. arXiv"
+  },
+  {
+    "objectID": "publications.html#preprints",
+    "href": "publications.html#preprints",
+    "title": "Publications",
+    "section": "",
+    "text": "D. Corallo, P. Lehner, and C. Wieners: A parallel space-time \\(p\\)-adaptive discontinuous Galerkin method for nonlinear acoustics, 2026. arXiv"
+  },
+  {
+    "objectID": "publications.html#publications-1",
+    "href": "publications.html#publications-1",
+    "title": "Publications",
+    "section": "",
+    "text": "P. Lehner: Well-posedness of a first-order-in-time model for nonlinear acoustics with nonhomogeneous boundary conditions, Nonlinear Analysis: Real World Applications, 91, 104609, 2026. arXiv\nB. Kaltenbacher and P. Lehner: A first order in time wave equation modeling nonlinear acoustics, Journal of Mathematical Analysis and Applications, 543, 128933, 2025. arXiv\nC. Kuehn, P. Lehner, and J.-E. Sulzbach: Infinite dimensional Slow Manifolds for a Linear Fast-Reaction System, Contemporary Mathematics, 806, 87–104, 2024. arXiv"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Pascal Lehner",
