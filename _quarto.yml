@@ -1,32 +1,51 @@
 project:
   type: website
-    
-website:
 
+website:
   title: "Pascal Lehner"
   site-url: https://pascal-lehner.github.io
   search: true
-  navbar:
-    left:
-      - text: "Home"
+  page-navigation: true
+
+  sidebar:
+    style: docked
+    background: light
+
+    logo: images/profile.jpg   
+
+    title: "Pascal Lehner"
+
+    tools:
+      - icon: geo-alt
+        aria-label: "Vienna, Austria"
+        href: https://maps.google.com/?q=Vienna,+Austria
+      - icon: envelope
+        aria-label: "Email"
+        href: mailto:YOUR-EMAIL
+      - icon: linkedin
+        aria-label: "LinkedIn"
+        href: https://www.linkedin.com/in/YOUR-LINKEDIN/
+      - icon: mortarboard
+        aria-label: "Google Scholar"
+        href: https://scholar.google.com/
+
+    contents:
+      - text: Home
         href: index.qmd
-    right:
-      - text: "Research"
+      - text: Research
         href: research.qmd
-      - text: "Publications"
+      - text: Publications
         href: publications.qmd
-      - text: "CV"
+      - text: CV
         href: cv.qmd
-      - text: "Teaching"
+      - text: Teaching
         href: teaching.qmd
-      - text: "Slides"
+      - text: Slides
         href: slides.qmd
-        
 
 format:
   html:
     theme: cosmo
-    css: styles.css
     toc: true
     link-external-newwindow: true
 
