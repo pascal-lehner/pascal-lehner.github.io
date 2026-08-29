@@ -7,29 +7,9 @@ website:
   search: true
   page-navigation: true
 
-  sidebar:
-    style: docked
-    background: light
-
-    logo: images/profile.jpg   
-
-    title: "Pascal Lehner"
-
-    tools:
-      - icon: geo-alt
-        aria-label: "Vienna, Austria"
-        href: https://maps.google.com/?q=Vienna,+Austria
-      - icon: envelope
-        aria-label: "Email"
-        href: mailto:YOUR-EMAIL
-      - icon: linkedin
-        aria-label: "LinkedIn"
-        href: https://www.linkedin.com/in/YOUR-LINKEDIN/
-      - icon: mortarboard
-        aria-label: "Google Scholar"
-        href: https://scholar.google.com/
-
-    contents:
+  # Top navigation bar
+  navbar:
+    left:
       - text: Home
         href: index.qmd
       - text: Research
@@ -42,6 +22,32 @@ website:
         href: teaching.qmd
       - text: Slides
         href: slides.qmd
+
+  # Left info sidebar 
+  sidebar:
+    style: docked
+    background: light
+
+    logo: images/profile.jpg   
+
+    contents:
+      - text: |
+          <div>
+            <div class="fw-bold">Pascal Lehner</div>
+            <div class="text-muted">Mathematician</div>
+            <div>📍 Vienna, Austria</div>
+          </div>
+
+    tools:
+      - icon: envelope
+        aria-label: Email
+        href: mailto:YOUR-EMAIL
+      - icon: linkedin
+        aria-label: LinkedIn
+        href: https://www.linkedin.com/in/YOUR-LINKEDIN/
+      - icon: mortarboard
+        aria-label: Google Scholar
+        href: https://scholar.google.com/
 
 format:
   html:
