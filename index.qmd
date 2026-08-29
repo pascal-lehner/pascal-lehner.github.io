@@ -1,1 +1,4 @@
-This side is under construction.
+## Research interests
+
+- Analysis and numerics of nonlinear and nonlocal evolution PDEs
+- Modeling acoustics and nonlinear wave phenomena
