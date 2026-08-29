@@ -5,13 +5,11 @@ website:
   title: "Pascal Lehner"
   site-url: https://pascal-lehner.github.io
   search: true
-  page-navigation: true
+  page-navigation: false
 
   # Top navigation bar
   navbar:
     left:
-      - text: Home
-        href: index.qmd
       - text: Research
         href: research.qmd
       - text: Publications
@@ -27,9 +25,7 @@ website:
   sidebar:
     style: docked
     background: light
-
-    logo: images/profile.jpg   
-
+    
     contents:
       - text: |
           <div>
