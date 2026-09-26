@@ -29,44 +29,30 @@ website:
   sidebar:
     style: docked
     background: light
-
     contents:
-          - text: |
+      - text: |
           <div class="mb-2">Pascal Lehner</div>
           <div class="text-muted mb-3">
             Postdoc at
             <a href="https://www.tum.de/" target="_blank">Technical University of Munich</a><br>
             <a href="https://www.cit.tum.de/" target="_blank">School of Computation, Information and Technology (CIT)</a><br>
             Member of the
-            <a href="https://www.math.cit.tum.de/en/math/research/groups/numerical-analysis/" target="_blank">
+            <a href="https://www.math.cit.tum.de/en/math/research/numerical-analysis/" target="_blank">
               Chair of Numerical Analysis
             </a>
           </div>
-
-
 
           <ul class="list-unstyled small">
             <li class="mb-1">
               <img src="icons/geo-alt.svg"
                    alt="Location" style="width:1em;height:1em;margin-right:.5em;vertical-align:-0.18em;">
-              <a href="https://www.google.com/maps/place/M%C3%BCnchen,+Deutschland/@48.1550215,11.3766332,11z/data=!3m1!4b1!4m6!3m5!1s0x479e75f9a38c5fd9:0x10cb84a7db1987d!8m2!3d48.1351253!4d11.5819805!16s%2Fm%2F02h6_6p?entry=ttu&g_ep=EgoyMDI2MDgyNi4wIKXMDSoASAFQAw%3D%3D">Munich, Germany</a>
+              <a href="https://www.google.com/maps/place/M%C3%BCnchen,+Deutschland/">Munich, Germany</a>
             </li>
 
             <li class="mb-1">
               <img src="icons/envelope.svg"
                    alt="Email" style="width:1em;height:1em;margin-right:.5em;vertical-align:-0.18em;">
               <a href="#" id="email">Email</a>
-
-              <script>
-                document.getElementById("email").addEventListener("click", function(event) {
-                  event.preventDefault();
-
-                  const parts = ["pascal", "lehner", "de"];
-                  const email = parts[0] + "·" + parts[1] + "∂" + parts[2];
-
-                  window.location.href = "mailto:" + email;
-                });
-              </script>
             </li>
 
             </li>
