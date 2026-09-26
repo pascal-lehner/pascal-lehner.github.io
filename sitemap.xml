@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://pascal-lehner.github.io/research.html</loc>
+    <lastmod>2026-09-26T15:52:58.799Z</lastmod>
+  </url>
+  <url>
     <loc>https://pascal-lehner.github.io/publications.html</loc>
-    <lastmod>2026-08-29T20:30:35.652Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pascal-lehner.github.io/slides.html</loc>
-    <lastmod>2026-08-29T20:30:35.652Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pascal-lehner.github.io/index.html</loc>
-    <lastmod>2026-08-29T20:30:35.652Z</lastmod>
+    <lastmod>2026-09-26T15:52:58.799Z</lastmod>
   </url>
   <url>
     <loc>https://pascal-lehner.github.io/cv.html</loc>
-    <lastmod>2026-08-29T20:30:35.652Z</lastmod>
+    <lastmod>2026-09-26T15:52:58.799Z</lastmod>
   </url>
   <url>
     <loc>https://pascal-lehner.github.io/teaching.html</loc>
-    <lastmod>2026-08-29T20:30:35.652Z</lastmod>
+    <lastmod>2026-09-26T15:52:58.799Z</lastmod>
   </url>
   <url>
-    <loc>https://pascal-lehner.github.io/research.html</loc>
-    <lastmod>2026-08-29T20:30:35.652Z</lastmod>
+    <loc>https://pascal-lehner.github.io/index.html</loc>
+    <lastmod>2026-09-26T15:52:58.799Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pascal-lehner.github.io/slides.html</loc>
+    <lastmod>2026-09-26T15:52:58.799Z</lastmod>
   </url>
 </urlset>
