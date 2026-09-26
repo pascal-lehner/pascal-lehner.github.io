@@ -44,7 +44,19 @@ website:
             <li class="mb-1">
               <img src="icons/envelope.svg"
                    alt="Email" style="width:1em;height:1em;margin-right:.5em;vertical-align:-0.18em;">
-              <a href="mailto:YOUR-EMAIL">Email</a>
+              <a href="#" id="email">Email</a>
+
+<script>
+document.getElementById("email").addEventListener("click", function(event) {
+  event.preventDefault();
+
+  const parts = ["pascal·lehner", "", "de"];
+  const email = parts[0] + "∂" + parts[1] + "·" + parts[2];
+
+  window.location.href = "mailto:" + email;
+});
+</script>
+
             </li>
             <li class="mb-1">
               <img src="icons/linkedin.svg"
